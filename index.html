@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>★ cyber_dev_cards_2000 ★</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- GIFs Decorativos Flutuantes da Internet Antiga -->
+    <img src="https://giphy.com" class="gif-decorativo g1" alt="Sparkles">
+    <img src="https://giphy.com" class="gif-decorativo g2" alt="CD ROM">
+
+    <header class="janela-pc">
+        <div class="barra-titulo">
+            <span>★ WIN_ME_FRONTEND.EXE ★</span>
+            <div class="botoes-janela"><button>_</button><button>口</button><button>X</button></div>
+        </div>
+        <div class="conteudo-header">
+            <h1>⚡ DevCards Y2K ⚡</h1>
+            <p>Selecione um card e clique para revelar o segredo do Front-End!</p>
+            <marquee scrollamount="5">+++ BEM-VINDO AO MEU SITE DA PROF EDUARDA</marquee>
+        </div>
+    </header>
+
+    <!-- Grid de Cards Modificado para alinhar lado a lado ou em grade -->
+    <main class="grid-cards">
+        
+        <!-- CARD 1: CSS -->
+        <div class="flashcard janela-pc" onclick="this.classList.toggle('virado')">
+            <div class="barra-titulo">
+                <span>Pergunta_01.txt</span>
+                <div class="botoes-janela"><button>X</button></div>
+            </div>
+            <div class="corpo-card">
+                <div class="face frente">
+                    <span class="tag-categoria">[ CSS ]</span>
+                    <p>Qual propriedade define o espaçamento entre filhos no Flexbox?</p>
+                    <span class="piscar">CLIQUE PARA VIRAR</span>
+                </div>
+                <div class="face verso">
+                    <span class="tag-resposta">[ RESPOSTA ]</span>
+                    <p>É a propriedade <code>gap</code>!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 2: HTML -->
+        <div class="flashcard janela-pc" onclick="this.classList.toggle('virado')">
+            <div class="barra-titulo">
+                <span>Pergunta_02.txt</span>
+                <div class="botoes-janela"><button>X</button></div>
+            </div>
+            <div class="corpo-card">
+                <div class="face frente">
+                    <span class="tag-categoria">[ HTML ]</span>
+                    <p>Para que serve a clássica tag retro &lt;marquee&gt;?</p>
+                    <span class="piscar">CLIQUE PARA VIRAR</span>
+                </div>
+                <div class="face verso">
+                    <span class="tag-resposta">[ RESPOSTA ]</span>
+                    <p>Para criar textos que ficam correndo/deslizando pela tela!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 3: JavaScript -->
+        <div class="flashcard janela-pc" onclick="this.classList.toggle('virado')">
+            <div class="barra-titulo">
+                <span>Pergunta_03.txt</span>
+                <div class="botoes-janela"><button>X</button></div>
+            </div>
+            <div class="corpo-card">
+                <div class="face frente">
+                    <span class="tag-categoria">[ JAVASCRIPT ]</span>
+                    <p>Qual método usamos para escutar um clique do mouse?</p>
+                    <span class="piscar">CLIQUE PARA VIRAR</span>
+                </div>
+                <div class="face verso">
+                    <span class="tag-resposta">[ RESPOSTA ]</span>
+                    <p>O método <code>addEventListener('click', ...)</code></p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="controles">
+        <button class="btn btn-erro"><img src="https://giphy.com" width="16"> ERREI</button>
+        <button class="btn btn-acerto"><img src="https://giphy.com" width="16"> ACERTEI</button>
+    </footer>
+
+</body>
+</html>
